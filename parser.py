@@ -14,7 +14,6 @@ async def pars(id, db, bot, url, query):
             if len(new_cards) == 0:
                 print("Новых объявлений не найдено")
                 #await bot.send_message(id, "Новых объявлений не найдено")
-
         else:
             return 0
 
